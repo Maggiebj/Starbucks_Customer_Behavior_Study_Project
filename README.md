@@ -40,6 +40,11 @@ There are 1 python files implement the product.
 
 Starbucks_Capstone_notebook.ipyn--The implementation code for the 3 tasks
 
+Algorithms and Techniques
+
+In task 2, we used DecisionTreeClassifier and RandomForestClassifier to build classification model and predict whether users who receive the offer would complete it.
+
+In task 3, we used user-user based collaborative filtering recommendation algorithm to find similar users to the user who would be recommended offers. We used Minmaxscaler to scale the profile numerical values in the same scale (0,1) and used Euclidean distance to calculate user-user distance and found the top n most similar users to the one we will make recommendation for. Then we found out the offers which have the maximum cumulated rewards completed by the top n most similar users and recommended these offers to the user. We removed offers the user did not influenced by according to history.
 
 # Results<a name="results"></a>
 We have successfully achieved the project goal by completed the 3 tasks. 
